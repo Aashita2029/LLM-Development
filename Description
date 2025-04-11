@@ -1,0 +1,14 @@
+🧠 CapsNet-Enhanced Next Word Prediction Model
+This project explores the innovative application of Capsule Networks (CapsNets) in the domain of Natural Language Processing. While CapsNets are predominantly used for image classification tasks due to their ability to preserve spatial hierarchies, we adapt them for next-word prediction—a novel direction in language modeling.
+
+🚀 Key Highlights
+Implements Capsule Networks for sequential textual data.
+
+Focuses on next-word prediction by modeling word-level dependencies more robustly.
+
+Utilizes dynamic routing to preserve hierarchical relationships between words.
+
+Built using PyTorch and Keras, with a custom tokenizer and preprocessing pipeline.
+
+📌 Why This Project?
+Traditional LSTMs and Transformers capture context but may not retain part-whole relationships as intuitively as CapsNets. Our model aims to test if CapsNets can improve understanding of semantic and syntactic structure in sentences.
